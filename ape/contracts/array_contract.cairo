@@ -3,9 +3,6 @@
 from starkware.cairo.common.cairo_builtins import HashBuiltin
 from starkware.starknet.common.syscalls import get_contract_address
 
-struct BasicStruct {
-    first_member: felt,
-    second_member: felt,
 }
 
 @view
